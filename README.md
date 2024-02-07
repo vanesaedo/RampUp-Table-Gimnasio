@@ -1,0 +1,2 @@
+# RampUp-Table-Gimnasio
+This repository include a RampUp exercise called Gimnasio wich purpose is create a table.
