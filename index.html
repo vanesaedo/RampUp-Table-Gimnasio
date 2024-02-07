@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=z, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table{
+        width: 600px;}
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: justify;
+        padding: 10px 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100 ;
+        line-height: 20px;
+        }
+
+    .grayTh {   
+            background-color: rgb(237, 236, 236);
+            font-weight:bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+ <table>
+
+<!---1st row --------------------------->
+    <tr class="grayTh">
+        <th colspan="3"><strong>Invoice #123456789</strong></th>
+        <th> <strong>January 2025</strong></th>
+    </tr>
+
+<!-- 2nd row --------------------------->
+    <tr>
+         <th colspan="2"><address style="font-style:normal"> <strong>Pay to:</strong> </br>
+            Acme Billing Co.</br>
+            123 Main St.</br>
+            CityVille, NA 12345</br>
+        </th>
+        <th colspan="2"><address style="font-style:normal">
+            <strong>Customer:</strong></br>
+            John Smith</br>
+            321 Willow Way</br>
+            Southeast Northwestshire, MA 54321
+            </address></th>
+            </tr>
+
+<!-- 3rd row --------------------------->
+        <tr>
+            <th class="grayTh">Name/Description</th>
+            <th>Qty.</th>
+            <th>@</th>
+            <th>Cost</th>
+        </tr>
+
+<!-- 4th row --------------------------->
+        <tr>
+            <th>Paper clips</th>
+            <th>1000</th>
+            <th>0.01</th>
+            <th>10</th>
+        </tr>
+
+<!-- 5th row --------------------------->
+        <tr>
+            <th>Staples box</th>
+            <th>100</th>
+            <th>1.00</th>
+            <th>100</th>
+        </tr>
+
+<!-- 6th row --------------------------->
+        <tr>
+            <th colspan="3" class="grayTh">Subtotal</th>
+            <th>110</th>
+        </tr>
+
+<!-- 7th row --------------------------->
+        <tr>
+            <th colspan="2" class="grayTh">Tax</th>
+            <th>8%</th>
+            <th>8.80</th>
+        </tr>
+
+<!-- 8th row --------------------------->
+        <tr>
+            <th colspan="3" class="grayTh">Grand total</th>
+            <th>$ 118.80</th>
+        </tr>
+    </table>
+</body>
+</html>
